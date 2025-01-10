@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", serif;
+    }
+    .container {
+      display: grid;
+      grid-gap: 2px;
+      grid-template-areas:
+        " header"
+        " content "
+        " footer";
+    }
+
+    .main img{
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+   
+    #header {
+      grid-area: header;
+      background-color: #333533;
+      padding: 10px 0;
+      position: fixed;
+           
+    }
+    #header ul li{
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+    }
+    #header ul li h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: beige;
+    }
+
+    #header ul li span{
+        color:rgb(255, 81, 0);;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    #header ul li a{
+        text-decoration: none;
+        color: beige;
+        transition: 0.3s ;
+    }
+    #header ul li a:hover{
+        
+        font-size: 18px;
+    }
+
+    .main{
+        background-color: #d6d6d6;
+        padding-top: 50px;
+       
+        
+    }
+   
+    .main h1{
+        color: #202020;
+        padding-top: 50px;
+    }
+    .main p{
+        color: #202020;
+    }
+    .hero-content{
+        margin-left: 40px;
+    }
+    
+    .cta-buttons a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 17px;
+    }
+    .cta-buttons{
+        margin-top: 40px;
+        
+    }
+    .cta-button{
+        background-color: #ffd100;
+        border-radius: 6px;
+        padding: 10px ;
+        margin: 0 10px;
+        border: 2px solid transparent;
+        box-shadow: 1px 0px 8px 3px #202020;
+        transition: 0.5s;
+    }
+
+    .cta-button:hover{
+        background-color: #d6d6d6;
+        border: 2px solid #ffd100;
+       
+    }
+    .cta-buttons a:hover{
+        color: #ffd100;
+        
+    }
+    .main hr{
+        margin: 50px 20px;
+        height: 3px;
+        background-color: #333533;
+        border: none;
+        
+    }
+
+    .step  {
+        margin:20px 45px;
+    }
+    h2{
+        margin-left: 40px;
+    }
+    .feature{
+        margin: 20px 45px 0;
+    }
+
+    .footer-content{
+        text-align: center;
+        align-self: center
+        
+        
+        ;
+
+       
+    }
+    .footer-content p{
+        color: #d6d6d6;
+    }
+    .Footer{
+        background-color: #202020;
+        height: 50px;
+    }
+  
+  </style>
+  <body>
+    <div class="container">
+       
+        
+        <nav id="header" class="nav">
+            <ul>
+                <li><a href="#">
+                    <h1>ONE <span>MCN</span></h1>
+                </a></li>
+                <li><a href="#home">Home</a></li>
+      <li><a href="#how-it-works">CREATER HUB</a></li>
+      <li><a href="#signup-influencers">PARTNERS HUB</a></li>
+      <li><a href="#signup-brands">BECAME A SPONSER</a></li>
+      <li><a href="#contact">CONTACT US</a></li>
+      <li><a href="#"> PROFILE</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main" id="content">
+
+        <section class="hero">
+            <div class="hero-content">
+              <h1>Empowering Streamers & Influencers for Greater Success</h1>
+              <p>We handle the logistics, partnerships, and growth strategies while you focus on creating.</p>
+              <div class="cta-buttons">
+                <a href="signup-influencers.html" class="cta-button">Join the Hub</a>
+                <a href="signup-brands.html" class="cta-button">Become a Sponsor</a>
+              </div>
+            </div>
+           
+          </section>
+       <hr>
+
+       <section class="how-it-works">
+        <h2>How It Works?</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>Step 1: Sign Up</h3>
+            <p>Submit your profile for review and get started with your journey.</p>
+          </div>
+          <div class="step">
+            <h3>Step 2: Get Matched</h3>
+            <p>We match you with brands that align with your audience and niche.</p>
+          </div>
+          <div class="step">
+            <h3>Step 3: Grow Together</h3>
+            <p>Access sponsorships, collaborations, and promotional opportunities to expand your reach.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2>What We Offer</h2>
+        <div class="feature">
+          <!-- <img src="path-to-icon/management-icon.png" alt="Management Support"> -->
+          <h3>Full Management Support</h3>
+          <p>We help manage your career, securing sponsorships and optimizing growth strategies.</p>
+        </div>
+        <div class="feature">
+          <!-- <img src="path-to-icon/partnerships-icon.png" alt="Brand Partnerships"> -->
+          <h3>Tailored Brand Partnerships</h3>
+          <p>We match influencers with the perfect brands for effective collaborations.</p>
+        </div>
+        <div class="feature">
+          <!-- <img src="path-to-icon/revenue-icon.png" alt="Revenue Maximization"> -->
+          <h3>Revenue Maximization</h3>
+          <p>Explore multiple revenue streams like sponsorships, affiliate marketing, and merchandising.</p>
+        </div>
+      </section>
+      
+      
+       
+    </div>
+
+    <div class="Footer" id="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 ONE-MCN. All rights reserved.</p>
+            
+          </div>
+       </div>
+      
+    </body>
+  </html>
+ 
+  </body>
+</html>
