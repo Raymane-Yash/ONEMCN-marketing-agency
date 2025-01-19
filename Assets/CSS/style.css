@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", serif;
+ }
+ .container {
+    
+   display: grid;
+   grid-gap: 2px;
+   grid-template-areas:
+     " header"
+     " content right "
+     " footer";
+ }
+
+ .main img{
+     width: 100%;
+ }
+ .nav{
+     width: 100%;
+ }
+
+ #header {
+   grid-area: header;
+   background-color: #333533;
+   padding: 10px 0;
+   position: fixed;
+        
+ }
+ #header ul li{
+     float: left;
+     list-style: none;
+     margin-left: 20px;
+ }
+ #header ul li h1{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: beige;
+ }
+
+ #header ul li span{
+     color:rgb(255, 81, 0);;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ #header ul li a{
+     text-decoration: none;
+     color: beige;
+     transition: 0.3s ;
+ }
+ #header ul li a:hover{
+     
+     font-size: 18px;
+ }
+
+ .main{
+     background-color: #d6d6d6;
+     padding-top: 50px;
+    
+     
+ }
+ .mainbox{
+    display: flex;
+    background-color: #d6d6d6;
+    
+ }
+
+ /* big logo on homepage starts here */
+
+ .biglogo{
+    height: 50vh;
+    margin-top: 145px;
+    border: 2px solid white;
+    margin-left: 120px;
+    width: 50vh;
+    border-radius: 20%;
+    box-shadow: 0 0 10px 3px black;
+   
+    background-color: #333533;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .logo-box{
+    padding:40px 3px;
+    line-height: 8em;
+   
+ }
+ 
+ .logo-box h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 9em;
+   
+ }
+
+ .logo-box h1 span{
+    color:rgb(255, 81, 0);;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+ }
+
+ .biglogo .logo-box #firsth1{
+    padding-left: 10px;
+ }
+
+ .main h1{
+     color: #202020;
+     padding-top: 150px;
+ }
+ .main p{
+     color: #202020;
+ }
+ .hero-content{
+     margin-left: 100px;
+     height: 85vh;
+ }
+ 
+ .cta-buttons a{
+ text-decoration: none;
+ color: #202020;
+ font-size: 17px;
+ }
+ .cta-buttons{
+     margin-top: 50px;
+     
+ }
+ .cta-button{
+     background-color: #ffd100;
+     border-radius: 6px;
+     padding: 10px ;
+     margin: 0 10px;
+     border: 2px solid transparent;
+     box-shadow: 1px 0px 8px 3px #202020;
+     transition: 0.5s;
+ }
+
+ .cta-button:hover{
+     background-color: #d6d6d6;
+     border: 2px solid #ffd100;
+    
+ }
+ .cta-buttons a:hover{
+     color: #ffd100;
+     
+ }
+ .main hr{
+     margin: 50px 20px 0px;
+     height: 3px;
+     background-color: #333533;
+     border: none;
+     
+ }
+
+ /* .step  {
+     margin:20px 45px;
+ }
+ h2{
+     margin-left: 40px;
+ }
+ .feature{
+     margin: 20px 45px 0;
+ } */
+
+ .footer-content{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .footer-content p{
+     color: #d6d6d6;
+ }
+ .Footer{
+     background-color: #202020;
+     height: 50px;
+ }
+
+
+
+
+
+/* Creator hub page */
+ 
+.wo{
+    padding-top: 50px;
+    background-color: #202020;
+}
+.wo h4{
+    text-align: center;
+    color: #d6d6d6;
+}
+
+/* main section straets */
+
+section{
+    width: 100%;
+    
+}
+
+.left{
+    width: 20%;
+    float: left;
+    color:#202020;
+    background-color:#d6d6d6;
+    overflow: auto;
+    height: 81.7vh;
+    border-right:2px solid #333533;
+}
+
+main{
+    height: 81.7vh;
+    background-color:#d6d6d6;
+    width: 100%;
+
+}
+ 
