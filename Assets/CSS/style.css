@@ -346,14 +346,16 @@ main {
 
 /* Section Styling */
 .influencer-section {
-  padding: 40px 10%;
+  padding: 40px 0;
   width: 100%;
+  
 }
 
-h2 {
+.influencer-section h2 {
   font-size: 2em;
   color:beige;
   margin-bottom: 20px;
+  margin-left: 132px;
 }
 /* Grid Layout */
 .grid-container {

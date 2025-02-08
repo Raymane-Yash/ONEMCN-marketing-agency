@@ -98,18 +98,18 @@
 
 
 /* hro */
-.hero {
+.hero-contactus {
     background: linear-gradient(135deg, #1c1c1c, #ff4f4f);
     color: white;
     text-align: center;
     padding: 60px 20px 40px 20px;
     margin-top: 70px;
 }
-.hero a{
+.hero-contactus a{
     text-decoration: none;
     color: var(--text-hover);
 }
-.hero .highlight {
+.hero-contactus .highlight {
     color: #ffdf4f;
     font-weight: bold;
     animation: fadeInOut 2s infinite alternate;
