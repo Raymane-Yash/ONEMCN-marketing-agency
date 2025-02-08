@@ -66,4 +66,167 @@
    
 }
 
-/* benifit ection starts */
+/* benifit ection ends */
+
+
+/* Service page started here so don't get confused */
+
+
+.grid-container{
+    padding: 5px 10%;
+
+}
+.service-card h3{
+    color: var(--text-hover);
+}
+.service-card p{
+    color: var(--text-color);
+}
+.service-card i {
+    font-size: 3rem;
+    color: #4fd6ff;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;margin-top: 100px;
+    
+}
+
+.service-card:hover i {
+    transform: scale(1.1);
+}
+
+
+
+/* hro */
+.hero {
+    background: linear-gradient(135deg, #1c1c1c, #ff4f4f);
+    color: white;
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+    margin-top: 70px;
+}
+.hero a{
+    text-decoration: none;
+    color: var(--text-hover);
+}
+.hero .highlight {
+    color: #ffdf4f;
+    font-weight: bold;
+    animation: fadeInOut 2s infinite alternate;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+/* hero end */
+
+/* dteps */
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px 10%;
+}
+
+.step {
+    position: relative;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #474646;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.step-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-hover);
+    margin-bottom: 10px;
+}
+
+
+/* steps end */
+
+/* cta btn */
+
+.cta-container{
+    text-align: center;
+}
+
+.cta-container p{
+    color: var(--text-color);
+    padding: 5px 0;
+}
+.btn-glow {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 20px 15px;
+    background: var(--text-hover);
+    color: var(--text-color);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: transform 0.6s ease-in-out;
+}
+
+.btn-glow:hover {
+    /* box-shadow: 0px 0px 15px rgba(255, 79, 79, 0.8); */
+    transform: scale(1.1);
+}
+
+
+/* cta btn */
+/* Service page ended here so don't get confused */
+
+
+/* contact us age started here */
+
+.headingcontact{
+    margin-top: 70px;
+    text-align: center;
+    background-color: var(--text-color);
+    color: var(--text-hover);
+}
+
+/* contact form started */
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form .btn-submit {
+    background: var(--text-hover);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form .btn-submit:hover {
+    background: rgb(255, 112, 46);
+}
+
+
+/* contatc form ended */
+/* contact us age ends here */
