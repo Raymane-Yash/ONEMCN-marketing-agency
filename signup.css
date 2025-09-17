@@ -97,7 +97,8 @@ body {
 }
 
 .go .goback{
-    text-align: center;
+    position: relative;
+    margin-left:  150px;
 }
 /* join as sponser stylesheet ends here */
 
@@ -190,3 +191,8 @@ body {
   text-decoration: underline;
 }
 /* join AS hub ends here */
+
+.Error{
+  color: red;
+  font-size: 14px;
+}

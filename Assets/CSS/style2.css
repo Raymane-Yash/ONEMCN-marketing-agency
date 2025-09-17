@@ -58,6 +58,9 @@
     text-align: left;
     padding: 10px 10%;
 }
+.benifit-section h2{
+    color: var(--text-color);
+}
 .benifit-section ul li{
     list-style: none;
     color: var(--text-color);
@@ -160,6 +163,9 @@
 .cta-container{
     text-align: center;
 }
+.cta-container h2{
+    color: var(--text-color);
+}
 
 .cta-container p{
     color: var(--text-color);
@@ -190,6 +196,7 @@
 /* contact us age started here */
 
 .headingcontact{
+    padding: 20px;
     margin-top: 70px;
     text-align: center;
     background-color: var(--text-color);
@@ -203,6 +210,11 @@
     margin: auto;
     text-align: center;
     padding: 40px 20px;
+}
+
+.contact-form h2{
+    margin: 10px;
+    color: var(--text-color);
 }
 
 .contact-form input,
